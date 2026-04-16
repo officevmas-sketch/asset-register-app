@@ -31,3 +31,7 @@ This can be deployed easily on:
 - It reads the header from row 3 in the FY sheets.
 - For WDV assets, it uses the rate if available; otherwise it infers a rate from cost, salvage value, and useful life.
 - For SLM assets, depreciation = (cost - salvage) / life.
+
+
+## Streamlit Cloud note
+Add `runtime.txt` with `python-3.12` to use a stable Python version on Streamlit Cloud.
